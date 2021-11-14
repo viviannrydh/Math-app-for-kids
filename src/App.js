@@ -1,25 +1,39 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react'
 import './App.css';
 
-function App() {
+import Header from './components/Header';
+import Plus from './pages/Plus';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Message from './components/Message';
+import Minus from './pages/Minus';
+import { PlusOneRounded } from '@material-ui/icons';
+import Multiple from './pages/Multiple';
+import Divide from './pages/Divide';
+import Help from './pages/Help';
+import Results from './pages/Results';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+        {/*<p className="message">{message}</p>*/}
+      <Router>
+          <Header />
+          <div className="content-wrapper">
+            <Message />
+              <Routes>
+                <Route path="/plus" element={<Plus />} />
+                <Route path="/minus" element={<Minus />} />
+                <Route path="/multiple" element={<Multiple />} />
+                <Route path="/Divide" element={<Divide />} />
+                <Route path="/help" element={<Help />} />
+                <Route path="/results" element={<Results />} />
+            </Routes>
+          </div>
+      </Router>
+
+    </>
+  )
 }
 
 export default App;
+
