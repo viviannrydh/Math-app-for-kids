@@ -8,7 +8,7 @@ const Header = () => {
     }
     return (
         <div className="header-container">
-            <Link to="/plus"><button className="cal-type-plus cal-type" value="+" onClick={(e) => { handlePlus(e) }}>+</button></Link> 
+            <Link to="/"><button className="cal-type-plus cal-type" value="+" onClick={(e) => { handlePlus(e) }}>+</button></Link> 
             <Link to="/minus"><button className="cal-type-minus cal-type" value="-" onClick={(e) => { handlePlus(e) }}>-</button></Link>
             <Link to="/multiple"><button className="cal-type-multiple cal-type" value="*" onClick={(e) => { handlePlus(e) }}>*</button></Link>
             <Link to="/divide"><button className="cal-type-divide cal-type" value="/" onClick={(e) => { handlePlus(e) }}>/</button></Link>
