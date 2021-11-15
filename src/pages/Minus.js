@@ -11,7 +11,7 @@ const Minus = () => {
   let [results, setResults] = useState([]);
   useEffect(
     () => {
-      setFirstNumber(Math.floor(Math.random() * 20) + 1);
+      setFirstNumber(Math.floor(Math.random() * 10) + 10);
       setSecondNumber(Math.floor(Math.random() * 10) + 1)
     }, []
   )
@@ -22,7 +22,7 @@ const Minus = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (firstNumber>secondNumber && answer == firstNumber - secondNumber) {
+    if (answer == firstNumber - secondNumber) {
       setMessage('Great Work, My dearest Noah');
       setUrl('http://northeastchamber.org/wp-content/uploads/2021/06/fireworks.jpeg')
       setResults([...results, { answer }])
