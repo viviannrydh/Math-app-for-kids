@@ -20,7 +20,7 @@ const App = () => {
           <div className="content-wrapper">
             <Message />
               <Routes>
-                <Route path="/" exact element={<Plus />} />
+                <Route path="/plus" exact element={<Plus />} />
                 <Route path="/minus" element={<Minus />} />
                 <Route path="/multiple" element={<Multiple />} />
                 <Route path="/Divide" element={<Divide />} />
