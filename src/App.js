@@ -10,7 +10,6 @@ import { PlusOneRounded } from '@material-ui/icons';
 import Multiple from './pages/Multiple';
 import Divide from './pages/Divide';
 import Help from './pages/Help';
-import Results from './pages/Results';
 
 const App = () => {
   return (
@@ -26,7 +25,6 @@ const App = () => {
                 <Route path="/multiple" element={<Multiple />} />
                 <Route path="/Divide" element={<Divide />} />
                 <Route path="/help" element={<Help />} />
-                <Route path="/results" element={<Results />} />
             </Routes>
           </div>
       </Router>

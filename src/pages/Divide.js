@@ -45,12 +45,12 @@ const Divide = () => {
     <div >
       <form onSubmit={handleSubmit} className="form-wrapper">
         <button className="divide-first">{firstNumber}</button>
-        <span>/</span>
+        <span className="formula">/</span>
         <button className="divide-second">{secondNumber}</button>
-        <span>=</span>
+        <span className="formula">=</span>
         <input type="text" value={answer} name="totalInput" onChange={handleChange} className="divide-answer" />
       </form>
-      <h2>You got <span style={{ color: 'green' }}>{results.length}</span> right! </h2>
+      <h2>You got <span className="result-number" style={{ color: 'green' }}>{results.length}</span> right! </h2>
     </div>
   )
 }

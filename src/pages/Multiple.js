@@ -45,12 +45,12 @@ const Multiple = () => {
     <div className="multiple-wrapper">
       <form onSubmit={handleSubmit} className="form-wrapper">
         <button className="multiple-first">{firstNumber}</button>
-        <span>*</span>
+        <span className="formula">*</span>
         <button className="multiple-second">{secondNumber}</button>
-        <span>=</span>
+        <span className="formula">=</span>
         <input type="text" value={answer} className="multiple-answer" name="totalInput" onChange={handleChange} />
       </form>
-      <h2>You got <span style={{color:'green'}}>{results.length}</span> right! </h2>
+      <h2>You got <span className="result-number" style={{color:'green'}}>{results.length}</span> right! </h2>
     </div>
   )
 }
