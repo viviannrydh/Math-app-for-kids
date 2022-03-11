@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Math-app-for-kids/static/css/main.536ea74a.chunk.css",
-    "main.js": "/Math-app-for-kids/static/js/main.e1220623.chunk.js",
-    "main.js.map": "/Math-app-for-kids/static/js/main.e1220623.chunk.js.map",
+    "main.js": "/Math-app-for-kids/static/js/main.76d3ae37.chunk.js",
+    "main.js.map": "/Math-app-for-kids/static/js/main.76d3ae37.chunk.js.map",
     "runtime-main.js": "/Math-app-for-kids/static/js/runtime-main.99c31949.js",
     "runtime-main.js.map": "/Math-app-for-kids/static/js/runtime-main.99c31949.js.map",
     "static/js/2.4f95b6c5.chunk.js": "/Math-app-for-kids/static/js/2.4f95b6c5.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.99c31949.js",
     "static/js/2.4f95b6c5.chunk.js",
     "static/css/main.536ea74a.chunk.css",
-    "static/js/main.e1220623.chunk.js"
+    "static/js/main.76d3ae37.chunk.js"
   ]
 }
