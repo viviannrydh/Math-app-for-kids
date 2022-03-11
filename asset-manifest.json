@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Math-app-for-kids/plus/static/css/main.536ea74a.chunk.css",
-    "main.js": "/Math-app-for-kids/plus/static/js/main.76d3ae37.chunk.js",
-    "main.js.map": "/Math-app-for-kids/plus/static/js/main.76d3ae37.chunk.js.map",
-    "runtime-main.js": "/Math-app-for-kids/plus/static/js/runtime-main.e26bcdef.js",
-    "runtime-main.js.map": "/Math-app-for-kids/plus/static/js/runtime-main.e26bcdef.js.map",
-    "static/js/2.4f95b6c5.chunk.js": "/Math-app-for-kids/plus/static/js/2.4f95b6c5.chunk.js",
-    "static/js/2.4f95b6c5.chunk.js.map": "/Math-app-for-kids/plus/static/js/2.4f95b6c5.chunk.js.map",
-    "static/js/3.e272a29e.chunk.js": "/Math-app-for-kids/plus/static/js/3.e272a29e.chunk.js",
-    "static/js/3.e272a29e.chunk.js.map": "/Math-app-for-kids/plus/static/js/3.e272a29e.chunk.js.map",
-    "index.html": "/Math-app-for-kids/plus/index.html",
-    "static/css/main.536ea74a.chunk.css.map": "/Math-app-for-kids/plus/static/css/main.536ea74a.chunk.css.map",
-    "static/js/2.4f95b6c5.chunk.js.LICENSE.txt": "/Math-app-for-kids/plus/static/js/2.4f95b6c5.chunk.js.LICENSE.txt",
-    "static/media/multiplication-table.eca6bda6.jpeg": "/Math-app-for-kids/plus/static/media/multiplication-table.eca6bda6.jpeg",
-    "static/media/noah.91982ae7.jpg": "/Math-app-for-kids/plus/static/media/noah.91982ae7.jpg"
+    "main.css": "/Math-app-for-kids/static/css/main.536ea74a.chunk.css",
+    "main.js": "/Math-app-for-kids/static/js/main.76d3ae37.chunk.js",
+    "main.js.map": "/Math-app-for-kids/static/js/main.76d3ae37.chunk.js.map",
+    "runtime-main.js": "/Math-app-for-kids/static/js/runtime-main.99c31949.js",
+    "runtime-main.js.map": "/Math-app-for-kids/static/js/runtime-main.99c31949.js.map",
+    "static/js/2.4f95b6c5.chunk.js": "/Math-app-for-kids/static/js/2.4f95b6c5.chunk.js",
+    "static/js/2.4f95b6c5.chunk.js.map": "/Math-app-for-kids/static/js/2.4f95b6c5.chunk.js.map",
+    "static/js/3.e272a29e.chunk.js": "/Math-app-for-kids/static/js/3.e272a29e.chunk.js",
+    "static/js/3.e272a29e.chunk.js.map": "/Math-app-for-kids/static/js/3.e272a29e.chunk.js.map",
+    "index.html": "/Math-app-for-kids/index.html",
+    "static/css/main.536ea74a.chunk.css.map": "/Math-app-for-kids/static/css/main.536ea74a.chunk.css.map",
+    "static/js/2.4f95b6c5.chunk.js.LICENSE.txt": "/Math-app-for-kids/static/js/2.4f95b6c5.chunk.js.LICENSE.txt",
+    "static/media/multiplication-table.eca6bda6.jpeg": "/Math-app-for-kids/static/media/multiplication-table.eca6bda6.jpeg",
+    "static/media/noah.91982ae7.jpg": "/Math-app-for-kids/static/media/noah.91982ae7.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e26bcdef.js",
+    "static/js/runtime-main.99c31949.js",
     "static/js/2.4f95b6c5.chunk.js",
     "static/css/main.536ea74a.chunk.css",
     "static/js/main.76d3ae37.chunk.js"
