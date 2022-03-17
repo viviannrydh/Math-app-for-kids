@@ -22,7 +22,7 @@ const Plus = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (answer == firstNumber + secondNumber) {
+    if (answer === firstNumber + secondNumber) {
       setMessage('Great Work, My dearest Noah');
       setUrl('http://northeastchamber.org/wp-content/uploads/2021/06/fireworks.jpeg')
       setResults([...results, { answer }])
