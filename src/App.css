@@ -21,7 +21,7 @@ body{
 h1{
   color:rgb(145, 5, 150);
   padding-right: 1%;
-  font-size: 4em;
+  font-size: 3.5rem;
 }
 
 .baby-img{
@@ -38,14 +38,26 @@ h1{
   font-weight: bold;
 }
 
+.hearticon-first{
+  fill: 'red';
+  font-size: '4em'
+}
+.hearticon-second{
+  color: 'deeppink';
+  font-size: '2em'
+}
+.hearticon-third{
+  color: 'orange'
+}
+
 .form-wrapper{
-  margin-left: 20%;
+  margin-left: 23%;
   margin-top: 10%;
 }
 
 button{
-  width:150px;
-  height:150px;
+  width:120px;
+  height:120px;
   border-radius: 50%;
   background-color: darkgreen;
   color:rgb(239, 247, 239);
@@ -54,65 +66,65 @@ button{
   
 }
 .plus-first{
-  background-color: rgb(133, 8, 8);
+  background-color: rgb(185, 8, 8);
   margin-right: 10px;
 }
 .plus-second{
-  background-color: rgb(7, 94, 4);
+  background-color: rgb(8, 148, 3);
   margin-left: 10px;
   margin-right: 10px;
 }
 .plus-answer{
-  background-color: deepskyblue;
+  background-color: rgb(4, 159, 211);
   margin-left: 10px;
 }
 .multiple-first{
-  background-color: blueviolet;
+  background-color: rgb(159, 69, 243);
   margin-right: 10px;
 }
 .multiple-second{
-  background-color: rgb(156, 11, 96);
+  background-color: rgb(248, 83, 179);
   margin-left: 10px;
   margin-right: 10px;
 }
 .multiple-answer{
-  background-color: chocolate;
+  background-color: rgb(252, 116, 18);
   margin-left: 10px;
 }
 .minus-first{
-  background-color: rgb(21, 94, 94);
+  background-color: rgb(37, 133, 133);
   margin-right: 10px;
 }
 .minus-second{
-  background-color: rgb(0, 60, 139);
+  background-color: rgb(6, 99, 221);
   margin-left: 10px;
   margin-right: 10px;
 }
 .minus-answer{
-  background-color: rgb(0, 139, 30);
+  background-color: rgb(3, 192, 44);
   margin-left: 10px;
 }
 .divide-first{
-  background-color: rgb(128, 126, 126);
+  background-color: rgb(160, 3, 3);
   margin-right: 10px;
 }
 .divide-second{
-  background-color: rgb(201, 70, 70);
+  background-color: rgb(243, 94, 94);
   margin-left: 10px;
   margin-right: 10px;
 }
 .divide-answer{
-  background-color: rgb(218, 207, 60);
+  background-color: rgb(255, 238, 6);
   margin-left: 10px;
 }
 span{
-  font-size: 4em;
+  font-size: 4rem;
   color:rgb(1, 37, 19);
 }
 
 input{
-  height: 150px;
-  width:150px;
+  height: 120px;
+  width:120px;
   border:none;
   border-radius: 50%;
   background-color: darkgreen;
@@ -139,10 +151,10 @@ input:focus {
  
 }
 .cal-type{
-  width:100px;
-  height:100px;
+  width:80px;
+  height:80px;
   background-color: rgb(237, 242, 245);
-  font-size: 6em;
+  font-size: 4em;
   color:rgb(92, 29, 4);
 }
 .cal-type-plus{
@@ -150,21 +162,22 @@ input:focus {
 }
 .cal-type-minus{
   color:rgb(155, 4, 4);
-  font-size: 5em;
+  font-size: 4em;
 }
 .cal-type-multiple{
   color:rgb(8, 24, 170);
-  font-size:5em;
+  font-size:4em;
+  padding-top:18px;
 }
 
 .cal-type-divide{
   color:rgb(172, 7, 130);
-  font-size: 5em;
+  font-size: 4em;
 }
 
 .help-img{
-  width:100px;
-  height:100px;
+  width:80px;
+  height:80px;
   border-radius: 50%;
   object-fit: fit;
 }
@@ -174,6 +187,172 @@ h2{
   margin-top: 15%;
   font-size: 2.2em;
   color:rgb(190, 3, 3);
-
 }
 
+@media only screen and (max-width:1320px){
+  h1{
+  font-size: 3rem;
+}
+  button{
+    width:100px;
+    height:100px;
+    font-size:3rem;
+  }
+  input{
+    width:100px;
+    height:100px;
+    font-size:3rem;
+  }
+  .cal-type{
+    width:80px;
+    height:80px;
+    font-size:3rem;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+  .help-img{
+    width:80px;
+    height:80px;
+    margin-top:10px;
+  }
+  .form-wrapper{
+    margin-left: 15%;
+
+}
+  h2{
+  margin-left: 20%;
+}
+}
+@media only screen and (max-width:845px){
+  h1{
+    font-size:2rem;
+  }
+  h2{
+    font-size:1.5rem;
+    margin-left:25%;
+  }
+  button{
+    width:60px;
+    height:60px;
+    font-size:2rem;
+  }
+  input{
+    width:60px;
+    height:60px;
+    font-size:2rem;
+  }
+  .cal-type{
+    width:60px;
+    height:60px;
+    font-size:2rem;
+  }
+  .help-img{
+    width:60px;
+    height:60px;
+  }
+  .form-wrapper{
+  margin-left: 20%;
+}
+  .formula{
+    font-size:2rem;
+  }
+}
+@media only screen and (max-width:625px){
+  .form-wrapper{
+    width:90%;
+    margin-left:5%;
+  }
+  .content-wrapper{
+    width:60%;
+  }
+  .cal-type{
+    width:40px;
+    height:40px;
+    font-size:1.2rem;
+  }
+   .help-img{
+    width:40px;
+    height:40px;
+  }
+   .baby-img{
+     width:80px;
+     height:80px;
+   }
+}
+@media only screen and (max-width:545px){
+  h1{
+    font-size:1.5rem;
+  }
+  h2{
+    font-size:1rem;
+    margin-left:30%;
+  }
+  button{
+    width:40px;
+    height:40px;
+    font-size:1.4rem;
+  }
+ 
+  input{
+    width:40px;
+    height:40px;
+    font-size:1.4rem;
+  }
+  .cal-type{
+    width:40px;
+    height:40px;
+    font-size:2rem;
+    margin-top:15px;
+  }
+  .help-img{
+    width:40px;
+    height:40px;
+  }
+  .form-wrapper{
+  margin-left: 25%;
+}
+  .formula{
+    font-size:2rem;
+  }
+  .result-number{
+    font-size:1.8rem;
+  }
+  .content-wrapper{
+    width:80%;
+    margin-left:10%;
+  }
+  .cal-type-multiple{
+  padding-top:10px;
+}
+}
+@media only screen and (max-width:399px){
+  .form-wrapper{
+  margin-left: 15%;
+}
+   .cal-type{
+    width:30px;
+    height:30px;
+    font-size:1.5rem;
+  }
+  .help-img{
+    width:30px;
+    height:30px;
+    margin-top:15px;
+  }
+}
+@media only screen and (max-width:315px){
+  .content-wrapper{
+    width:90%;
+    margin-left:5%;
+  }
+   .form-wrapper{
+  margin-left: 10%;
+  }
+  .baby-img{
+    width:50px;
+    height:50px;
+   }
+   h2{
+     margin-left:25%;
+   }
+}
