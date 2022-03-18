@@ -17,22 +17,22 @@
 }
 
 .leaf-1{ 
-  animation:leafOne 30s ease infinite;
+  animation:leafOne 15s ease infinite;
 }
 .leaf-2{
-  animation:leafTwo 30s ease infinite;
+  animation:leafTwo 15s ease infinite;
 }
 .leaf-3{
-  animation:leafThree 30s ease infinite;
+  animation:leafThree 15s ease infinite;
 }
 .leaf-4{
-  animation:leafFour 30s ease infinite;
+  animation:leafFour 15s ease infinite;
 }
 .leaf-5{
-  animation:leafFive 30s ease infinite;
+  animation:leafFive 15s ease infinite;
 }
 .leaf-6{
-  animation:leafSix 30s ease infinite;
+  animation:leafSix 15s ease infinite;
 }
 
 

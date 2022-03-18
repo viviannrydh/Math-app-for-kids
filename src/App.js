@@ -17,8 +17,9 @@ const App = () => {
     <>
         {/*<p className="message">{message}</p>*/}
       <Router>
-          <AnimateBG />
-          <Header />
+          
+        <Header />
+        <AnimateBG />
           <div className="content-wrapper">
           <Routes>
                 <Route path="/" exact element={<FrontPage />} />
