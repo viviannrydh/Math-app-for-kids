@@ -1,0 +1,309 @@
+.animate-wrapper{
+  z-index: -10;
+}
+@media only screen and (max-width: 1100px){
+ .animate-wrapper{
+  display:none
+}
+}
+
+.leaf{
+  width:40px;
+  z-index:10;
+  opacity: 0.4;
+}
+.leaf:hover{
+  opacity:1;
+}
+
+.leaf-1{ 
+  animation:leafOne 30s ease infinite;
+}
+.leaf-2{
+  animation:leafTwo 30s ease infinite;
+}
+.leaf-3{
+  animation:leafThree 30s ease infinite;
+}
+.leaf-4{
+  animation:leafFour 30s ease infinite;
+}
+.leaf-5{
+  animation:leafFive 30s ease infinite;
+}
+.leaf-6{
+  animation:leafSix 30s ease infinite;
+}
+
+
+
+@keyframes leafOne {
+  0%{
+    transform: 
+    translateX(-1)
+    translateY(-1)
+  }
+ 
+  100%{
+    transform:
+    translateX(900px)
+    translateY(900px)
+  }
+  
+}
+
+@keyframes leafTwo {
+  0%{
+    transform: 
+    translateX(200px)
+    translateY(-1%)
+  }
+
+  25%{
+    transform:
+    translateX(600px)
+    translateY(800px)
+  }
+  50%{
+    transform: 
+    translateX(800)
+    translateY(900)
+  }
+  75%{
+    transform: 
+    translateX(50px)
+    translateY(600px)
+  }
+  100%{
+    transform: 
+    translateX(200px)
+    translateY(0px)
+  }
+  
+}
+
+@keyframes leafThree {
+  0%{
+    transform: 
+    translateX(600px)
+    translateY(0%)
+  }
+  50%{
+    transform: 
+    translateX(990px)
+    translateY(800px)
+  }
+  75%{
+    transform: 
+    translateX(800px)
+    translateY(800px)
+  }
+  100%{
+    transform: 
+    translateX(600px)
+    translateY(600px)
+  }
+  
+}
+
+@keyframes leafFour{
+  0%{
+    transform: 
+      translateX(320px)
+      translateY(0px)
+  }
+  50%{
+    transform: 
+    translateX(600px)
+    translateY(500px)
+  }
+  75%{
+    transform: 
+    translateX(200px)
+    translateY(900px)
+  }
+  100%{
+    transform: 
+      translateX(320px)
+      translateY(0px)
+  }
+}
+
+@keyframes leafFive{
+  0%{
+    transform: 
+      translateX(666px)
+      translateY(0px)
+  }
+  50%{
+    transform:
+      translateX(300px)
+      tranlateY(800px)
+  }
+  75%{
+    transform: 
+      translateX(550px)
+      translateY(900px)
+  }
+  100%{
+    transform: 
+      translateX(666px)
+      translateY(666px)
+  }
+}
+/*
+@keyframes leafSix{
+  0%{
+    transform: 
+      translateX(999px)
+      translateY(-1px)
+  }
+  50%{
+    transform:
+      translateX(656px)
+      tranlateY(300px)
+  }
+  75%{
+    transform: 
+      translateX(400px)
+      translateY(1100px)
+  }
+  100%{
+    transform: 
+      translateX(990px)
+      translateY(3000px)
+  }
+}
+*/
+/*
+@media only screen and (max-width: 548px){
+
+    @keyframes leafOne {
+      0%{
+        transform:
+        translateX(1px)
+        translateY(0px)
+      }
+      100%{
+        transform:
+        translateX(60px)
+        translateY(800px)
+      }
+    }
+
+    @keyframes leafTwo {
+      0%{
+        transform:
+        translateX(35px)
+        translateY(-1px)
+      }
+
+      50%{
+        transform:
+        translateX(50px)
+        translateY(500px)
+      }
+      75%{
+        transform:
+        translateX(20px)
+        translateY(50px)
+      }
+      100%{
+        transform:
+        translateX(63px)
+        translateY(-1)
+      }
+      }
+
+    @keyframes leafThree {
+      0%{
+        transform:
+        translateX(1)
+        translateY(0)
+      }
+      50%{
+        transform:
+        translateX(46px)
+        translateY(1000px)
+      }
+      75%{
+        transform:
+        translateX(66px)
+        translateY(500px)
+      }
+      100%{
+        transform:
+        translateX(0px)
+        translateY(0px)
+      }
+    }
+
+    @keyframes leafFour{
+      0%{
+        transform:
+        translateX(50px)
+        translateY(-50px)
+      }
+      50%{
+        transform:
+        translateX(65px)
+        translateY(800px)
+      }
+      75%{
+        transform:
+        translateX(73px)
+        translateY(1200px)
+      }
+      100%{
+        transform:
+        translateX(10px)
+        translateY(-50px)
+      }
+    }
+
+    @keyframes leafFive{
+      0%{
+        transform:
+        translateX(30px)
+        translateY(-10px)
+      }
+      50%{
+        transform:
+        translateX(40px)
+        tranlateY(1000px)
+      }
+      75%{
+        transform:
+        translateX(50px)
+        translateY(800px)
+      }
+      100%{
+        transform:
+        translateX(60px)
+        translateY(-10px)
+      }
+    }
+
+    @keyframes leafSix{
+      0%{
+        transform:
+        translateX(6px)
+        translateY(100px)
+      }
+      50%{
+        transform:
+        translateX(20px)
+        tranlateY(800px)
+      }
+      75%{
+        transform:
+        translateX(30px)
+        translateY(1000px)
+      }
+      100%{
+        transform:
+        translateX(40px)
+        translateY(1200px)
+      }
+    }
+}*/

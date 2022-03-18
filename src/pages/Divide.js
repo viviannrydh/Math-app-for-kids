@@ -12,13 +12,13 @@ const Divide = () => {
   
   useEffect(
     () => {
-        let n = Math.floor(Math.random() * 9) + 1;
-        setFirstNumber(Math.pow(n,2));
+      let n = Math.floor(Math.random() * 9) + 1;
+      let m = Math.floor(Math.random() * 9) + 1;
+        setFirstNumber(n*m);
         setSecondNumber(n);
         console.log(firstNumber)
         console.log(secondNumber)
-      }, []
-  )
+      }, [])
   const handleChange = (e) => {
     e.preventDefault();
     setAnswer(e.target.value);
