@@ -1,12 +1,12 @@
 import React from 'react';
-import Messages from '../components/Message'
+import Message from '../components/Message'
 
 const FrontPage = () => {
   return (
     <div>
-      <Messages />
+      <Message />
     </div>
   )
 }
 
-export default FrontPage
+export default FrontPage;

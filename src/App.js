@@ -22,8 +22,8 @@ const App = () => {
         <AnimateBG />
           <div className="content-wrapper">
           <Routes>
-                <Route path="/" exact element={<FrontPage />} />
-                <Route path="/plus" exact element={<Plus />} />
+                <Route path="/Math-app-for-kids" exact element={<FrontPage />} />
+                <Route path="/plus" element={<Plus />} />
                 <Route path="/minus" element={<Minus />} />
                 <Route path="/multiple" element={<Multiple />} />
                 <Route path="/Divide" element={<Divide />} />
